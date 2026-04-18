@@ -1,0 +1,37 @@
+Package: LFAHFN
+Type: Package
+Title: Life-years Fixed Advanced Heart Failure Network
+Version: 1.0.0
+Authors@R: 
+    person("Mahmood", "Ahmad", 
+           email = "mahmood.ahmad2@nhs.net", 
+           role = c("aut", "cre"))
+Description: Provides a comprehensive suite for advanced network meta-analysis 
+    in heart failure research. Includes surrogate endpoint validation, 
+    life-years gained modeling, and world-class diagnostic tools.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    netmeta (>= 2.0.0),
+    meta (>= 5.0.0),
+    ggplot2 (>= 3.0.0),
+    dplyr (>= 1.0.0),
+    tidyr (>= 1.0.0),
+    purrr (>= 0.3.0),
+    tibble (>= 3.0.0),
+    coda,
+    rlang,
+    stats,
+    utils,
+    graphics,
+    grDevices
+Suggests: 
+    testthat (>= 3.0.0),
+    gemtc,
+    future,
+    future.apply,
+    ranger
+RoxygenNote: 7.3.3
+URL: https://github.com/mahmooda/LFAHFN
+Language: en-US
