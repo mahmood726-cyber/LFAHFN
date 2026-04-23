@@ -27,6 +27,9 @@ desktop.ini
 *.swp
 *.swo
 
+# RStudio session state (per-user, not source of truth)
+.Rproj.user/
+
 # Session checkpoints (see C:\Users\user\.claude\rules\rules.md)
 PROGRESS.md
 
